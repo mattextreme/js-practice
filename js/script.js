@@ -4,8 +4,13 @@ $(function() {
       $('#signup-modal').fadeIn();
     });
   
-    $('#close-modal').click(function() {
+    $('.login-show').click(function() {
+      $('#login-modal').fadeIn();
+    });
+
+    $('.close-modal').click(function() {
       $('#signup-modal').fadeOut();
+      $('#login-modal').fadeOut();
     });
   
   });
