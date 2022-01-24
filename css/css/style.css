@@ -60,20 +60,19 @@ header {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  color: #333;
   text-align: center;
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
   font-size: 45px;
+  color: #9e9ba0;
   letter-spacing: 5px;
 }
 
 .top-wrapper p {
-  opacity: 0.7;
   margin-bottom: 35px;
   font-size: 14px;
+  color: #5f5d60;
 }
 
 .signup {
@@ -115,10 +114,10 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #e6ecf0;
   padding: 20px 0 40px;
-  border-radius: 10px;
   width: 450px;
+  background-color: #e6ecf0;
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -137,38 +136,88 @@ header {
 
 #signup-form h2,
 #login-form h2 {
-  color: #5f5d60;
   letter-spacing: 1px;
   margin-bottom: 40px;
+  color: #5f5d60;
 }
 
 #signup-form input,
 #login-form input {
-  width: 320px;
   margin-bottom: 20px;
-  font-size: 12px;
   padding: 12px 12px;
+  width: 320px;
   border: 1px solid #d0d5d8;
   border-radius: 5px;
+  font-size: 12px;
 }
 
 #submit-btn {
   display: inline-block;
+  margin: 10px auto;
   padding: 14px 140px;
   background-color: #5dca88;
   border: none;
   border-radius: 3px;
   color: #fff;
-  margin: 10px auto;
   cursor: pointer;
 }
 
+/*interest*/
+.interest-wrapper {
+  padding-bottom: 180px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.heading h2 {
+  font-size: 30px;
+  color: #9e9ba0;
+}
+
+.interest {
+  float: left;
+  width: 25%;
+}
+
+.interest-item {
+  position: relative;
+  margin: 0 auto;
+  background-color: #e6ecf0;
+  width: 70%;
+  height: 50px;
+  cursor: pointer;
+}
+
+.interest-item p {
+  position: absolute;
+  width: 100%;
+  color: #5f5d60;
+}
+
+.text-contents {
+  display: none;
+  margin: 3% auto;
+  width: 80%;
+  font-size: 12px;
+  color: #5f5d60;
+}
+
+.text-active {
+  display: block;
+}
+
+/*フッター*/
 footer {
   padding-top: 30px;
 }
 
 footer p {
   text-align: center;
-  color: #b3aeb5;
+  color: #999;
   font-size: 12px;
 }
