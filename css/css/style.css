@@ -1,3 +1,7 @@
+html {
+  font-size: 1.5rem;
+}
+
 body {
   font-family: "Helvetica Neue",
   Arial,
@@ -16,7 +20,7 @@ header {
   position :fixed;
   top: 0;
   z-index: 10;
-  height: 65px;
+  height: 5rem;
   width: 100%;
   background-color: #223134e6;
   color: #fff;
@@ -39,8 +43,8 @@ header {
 .header-right .login {
   display: block;
   cursor: pointer;
-  line-height: 65px;
-  padding: 0 25px;
+  padding: 0 2rem;
+  line-height: 5rem;
   color: #fff;
 }
 
@@ -48,30 +52,29 @@ header {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  padding: 0 5px;
-  font-size: 20px;
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 
 .container {
-  padding: 0 15px;
+  padding: 0 1rem;
   margin: 0 auto;
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  padding: 10rem 0 6rem;
   text-align: center;
 }
 
 .top-wrapper h1 {
-  font-size: 45px;
+  font-size: 4rem;
   color: #9e9ba0;
-  letter-spacing: 5px;
+  letter-spacing: 0.3rem;
 }
 
 .top-wrapper p {
-  margin-bottom: 35px;
-  font-size: 14px;
+  margin-bottom: 2rem;
   color: #5f5d60;
 }
 
@@ -82,9 +85,9 @@ header {
 .btn {
   display: inline-block;
   opacity: 0.8;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   cursor: pointer;
-  padding: 12px 24px;
+  padding: 1rem 2rem;
   color: #fff;
 }
 
@@ -93,7 +96,7 @@ header {
 }
 
 .fa {
-  margin-right: 5px;
+  margin-right: 0.4rem;
 }
 
 /*モーダル*/
@@ -114,17 +117,17 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 20px 0 40px;
-  width: 450px;
+  padding: 1rem 0 2rem;
+  width: 30rem;
   background-color: #e6ecf0;
-  border-radius: 10px;
+  border-radius: 1rem;
   text-align: center;
 }
 
 .fa-times {
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 1rem;
+  right: 1rem;
   color: rgba(128, 128, 128, 0.46);
   cursor: pointer;
 }
@@ -137,73 +140,75 @@ header {
 #signup-form h2,
 #login-form h2 {
   letter-spacing: 1px;
-  margin-bottom: 40px;
+  margin-bottom: 2rem;
   color: #5f5d60;
 }
 
 #signup-form input,
 #login-form input {
-  margin-bottom: 20px;
-  padding: 12px 12px;
-  width: 320px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  width: 22rem;
   border: 1px solid #d0d5d8;
-  border-radius: 5px;
-  font-size: 12px;
+  border-radius: 0.5rem;
+  font-size: 1rem;
 }
 
 #submit-btn {
   display: inline-block;
-  margin: 10px auto;
-  padding: 14px 140px;
+  margin: 1rem auto;
+  padding: 1rem 10rem;
   background-color: #5dca88;
   border: none;
-  border-radius: 3px;
+  border-radius: 0.25rem;
   color: #fff;
   cursor: pointer;
 }
 
 /*interest*/
 .interest-wrapper {
-  padding-bottom: 180px;
+  padding-bottom: 10rem;
   background-color: #f7f7f7;
   text-align: center;
 }
 
 .heading {
-  padding-top: 60px;
-  padding-bottom: 30px;
+  padding: 1rem 0;
 }
 
 .heading h2 {
-  font-size: 30px;
+  font-size: 2.5rem;
   color: #9e9ba0;
 }
 
 .interest {
   float: left;
-  width: 25%;
+  width: 33%;
 }
 
 .interest-item {
   position: relative;
-  margin: 0 auto;
+  margin: 0 0.6rem;
   background-color: #e6ecf0;
-  width: 70%;
-  height: 50px;
+  height: 3rem;
   cursor: pointer;
 }
 
 .interest-item p {
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
   width: 100%;
+  font-size: 1.2rem;
   color: #5f5d60;
 }
 
 .text-contents {
   display: none;
-  margin: 3% auto;
+  margin: 0.5rem auto;
   width: 80%;
-  font-size: 12px;
+  font-size: 1rem;
   color: #5f5d60;
 }
 
@@ -214,7 +219,7 @@ header {
 /*faq*/
 .faq-wrapper {
   background-color: #fff;
-  padding-bottom: 90px;
+  padding-bottom: 5rem;
   text-align: center;
   color: #5f5d60;
 }
@@ -222,50 +227,204 @@ header {
 #faq-list {
   margin: 0 auto;
   padding: 0;
-  width: 600px;
+  width: 90%;
   list-style: none;
 }
 
 /*アコーディオン追加*/
 .faq-list-item {
   position: relative;
-  margin: 10px;
+  margin: 0.5rem;
   border-bottom: 1px solid #ccc;
   cursor: pointer;
   text-align: left;
 }
 
 .faq-list-item h3 {
-  font-size: 14px;
+  font-size: 1.2rem;
+  font-weight: normal;
   color: #5f5d60;
 }
 
 .faq-list-item span {
   position: absolute;
   top: 0;
-  right: 5px;
-  font-size: 20px;
+  right: 0.5rem;
+  font-size: 2rem;
   color: #ccc;
 }
 
 .answer {
   display: none;
-  margin-bottom: 15px;
-  padding: 5px 0px;
-  font-size: 12px;
+  margin-bottom: 1rem;
+  padding: 0.4rem 0px;
+
 }
 
 .answer p {
-  margin-top: 0.2em;
+  margin-top: 0;
 }
 
 /*フッター*/
 footer {
-  padding-top: 30px;
+  padding-top: 2rem;
 }
 
 footer p {
   text-align: center;
   color: #999;
-  font-size: 12px;
+  font-size: 0.8rem;
+}
+
+@media only screen and (min-width:1025px) {
+  html {
+    font-size: 14px;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+  }
+
+  .header-right .login {
+    padding: 0 25px;
+    line-height: 65px;
+  }
+
+  .logo {
+    padding: 0 5px;
+    font-size: 20px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+
+  .top-wrapper p {
+    margin-bottom: 35px;
+    font-size: 14px;
+  }
+
+  .btn {
+    border-radius: 4px;
+    padding: 12px 24px;
+  }
+
+  .fa {
+    margin-right: 5px;
+  }
+
+  /*モーダル*/
+  .modal {
+    padding: 20px 0 40px;
+    width: 450px;
+    border-radius: 10px;
+  }
+  
+  .fa-times {
+    top: 12px;
+    right: 12px;
+  }
+
+  .fa-times {
+    top: 12px;
+    right: 12px;
+  }
+  
+  #signup-form h2,
+  #login-form h2 {
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  }
+  
+  #signup-form input,
+  #login-form input {
+    margin-bottom: 20px;
+    padding: 12px 12px;
+    width: 320px;
+    border: 1px solid #d0d5d8;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  #submit-btn {
+    margin: 10px auto;
+    padding: 14px 140px;
+    border-radius: 3px;
+  }
+  
+  /*interest*/
+  .interest-wrapper {
+    padding-bottom: 180px;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  
+  .heading h2 {
+    font-size: 30px;
+  }
+  
+  .interest-item {
+    margin: 0 20px;
+    height: 50px;
+  }
+  
+  .text-contents {
+    font-size: 12px;
+  }
+  
+  /*faq*/
+  .faq-wrapper {
+    padding-bottom: 90px;
+  }
+  
+  #faq-list {
+    width: 600px;
+  }
+  
+  /*アコーディオン追加*/
+  .faq-list-item {
+    margin: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .faq-list-item h3 {
+    font-size: 16px;
+  }
+  
+  .faq-list-item span {
+    right: 5px;
+    font-size: 20px;
+  }
+  
+  .answer {
+    margin-bottom: 15px;
+    padding: 5px 0px;
+    font-size: 12px;
+  }
+  
+  .answer p {
+    margin-top: 3px;
+  }
+  
+  /*フッター*/
+  footer {
+    padding-top: 30px;
+  }
+  
+  footer p {
+    font-size: 12px;
+  }
 }
