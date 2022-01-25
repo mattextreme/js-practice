@@ -1,5 +1,5 @@
 html {
-  font-size: 1.5rem;
+  font-size: 62.5%;
 }
 
 body {
@@ -20,7 +20,7 @@ header {
   position :fixed;
   top: 0;
   z-index: 10;
-  height: 5rem;
+  height: 10rem;
   width: 100%;
   background-color: #223134e6;
   color: #fff;
@@ -43,8 +43,9 @@ header {
 .header-right .login {
   display: block;
   cursor: pointer;
-  padding: 0 2rem;
-  line-height: 5rem;
+  padding: 0 4rem;
+  line-height: 10rem;
+  font-size: 2.4rem;
   color: #fff;
 }
 
@@ -52,29 +53,29 @@ header {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  padding: 0 0.5rem;
-  font-size: 1.5rem;
+  padding: 0 2rem;
+  font-size: 4rem;
   color: #fff;
 }
 
 .container {
-  padding: 0 1rem;
+  padding: 0 3rem;
   margin: 0 auto;
 }
 
 .top-wrapper {
-  padding: 10rem 0 6rem;
+  padding: 20rem 0 10rem;
   text-align: center;
 }
 
 .top-wrapper h1 {
-  font-size: 4rem;
+  font-size: 8rem;
   color: #9e9ba0;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.6rem;
 }
 
 .top-wrapper p {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   color: #5f5d60;
 }
 
@@ -85,9 +86,10 @@ header {
 .btn {
   display: inline-block;
   opacity: 0.8;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   cursor: pointer;
-  padding: 1rem 2rem;
+  padding: 3rem 9rem;
+  font-size: 3.2rem;
   color: #fff;
 }
 
@@ -96,7 +98,7 @@ header {
 }
 
 .fa {
-  margin-right: 0.4rem;
+  margin-right: 1rem;
 }
 
 /*モーダル*/
@@ -117,17 +119,21 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 1rem 0 2rem;
-  width: 30rem;
+  padding: 3rem 0 5rem;
+  width: 80rem;
   background-color: #e6ecf0;
-  border-radius: 1rem;
+  border-radius: 2rem;
   text-align: center;
+}
+
+.close-modal {
+  font-size: 2rem;
 }
 
 .fa-times {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 2rem;
+  right: 2rem;
   color: rgba(128, 128, 128, 0.46);
   cursor: pointer;
 }
@@ -139,45 +145,47 @@ header {
 
 #signup-form h2,
 #login-form h2 {
-  letter-spacing: 1px;
-  margin-bottom: 2rem;
+  letter-spacing: 0.8rem;
+  margin-bottom: 4rem;
+  font-size: 3.2rem;
   color: #5f5d60;
 }
 
 #signup-form input,
 #login-form input {
-  margin-bottom: 2rem;
-  padding: 1rem;
-  width: 22rem;
+  margin-bottom: 3rem;
+  padding: 3rem;
+  width: 64rem;
   border: 1px solid #d0d5d8;
   border-radius: 0.5rem;
-  font-size: 1rem;
+  font-size: 2.4rem;
 }
 
 #submit-btn {
   display: inline-block;
-  margin: 1rem auto;
-  padding: 1rem 10rem;
+  margin: 2rem auto;
+  padding: 2rem 24rem;
   background-color: #5dca88;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
+  font-size: 3.2rem;
   color: #fff;
   cursor: pointer;
 }
 
 /*interest*/
 .interest-wrapper {
-  padding-bottom: 10rem;
+  padding-bottom: 30rem;
   background-color: #f7f7f7;
   text-align: center;
 }
 
 .heading {
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .heading h2 {
-  font-size: 2.5rem;
+  font-size: 6rem;
   color: #9e9ba0;
 }
 
@@ -188,9 +196,9 @@ header {
 
 .interest-item {
   position: relative;
-  margin: 0 0.6rem;
+  margin: 0 1.2rem;
   background-color: #e6ecf0;
-  height: 3rem;
+  height: 10rem;
   cursor: pointer;
 }
 
@@ -200,15 +208,15 @@ header {
   transform: translateY(-50%);
   margin: 0;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 3.2rem;
   color: #5f5d60;
 }
 
 .text-contents {
   display: none;
-  margin: 0.5rem auto;
+  margin: 1rem auto;
   width: 80%;
-  font-size: 1rem;
+  font-size: 2.4rem;
   color: #5f5d60;
 }
 
@@ -219,7 +227,7 @@ header {
 /*faq*/
 .faq-wrapper {
   background-color: #fff;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
   text-align: center;
   color: #5f5d60;
 }
@@ -234,14 +242,14 @@ header {
 /*アコーディオン追加*/
 .faq-list-item {
   position: relative;
-  margin: 0.5rem;
+  margin: 1rem;
   border-bottom: 1px solid #ccc;
   cursor: pointer;
   text-align: left;
 }
 
 .faq-list-item h3 {
-  font-size: 1.2rem;
+  font-size: 3.6rem;
   font-weight: normal;
   color: #5f5d60;
 }
@@ -249,36 +257,36 @@ header {
 .faq-list-item span {
   position: absolute;
   top: 0;
-  right: 0.5rem;
-  font-size: 2rem;
+  right: 1rem;
+  font-size: 4rem;
   color: #ccc;
 }
 
 .answer {
   display: none;
-  margin-bottom: 1rem;
-  padding: 0.4rem 0px;
+  margin-bottom: 2rem;
+  padding: 0.8rem 0px;
 
 }
 
 .answer p {
   margin-top: 0;
+  font-size: 2.4rem;
 }
 
 /*フッター*/
 footer {
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 footer p {
   text-align: center;
   color: #999;
-  font-size: 0.8rem;
 }
 
 @media only screen and (min-width:1025px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   header {
@@ -289,6 +297,7 @@ footer p {
   .header-right .login {
     padding: 0 25px;
     line-height: 65px;
+    font-size: 16px;
   }
 
   .logo {
@@ -305,18 +314,19 @@ footer p {
   }
   
   .top-wrapper h1 {
-    font-size: 45px;
+    font-size: 48px;
     letter-spacing: 5px;
   }
 
   .top-wrapper p {
     margin-bottom: 35px;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .btn {
     border-radius: 4px;
     padding: 12px 24px;
+    font-size: 20px;
   }
 
   .fa {
@@ -326,10 +336,14 @@ footer p {
   /*モーダル*/
   .modal {
     padding: 20px 0 40px;
-    width: 450px;
+    width: 480px;
     border-radius: 10px;
   }
   
+  .close-modal {
+    font-size: 16px;
+  }
+
   .fa-times {
     top: 12px;
     right: 12px;
@@ -342,29 +356,31 @@ footer p {
   
   #signup-form h2,
   #login-form h2 {
-    letter-spacing: 1px;
     margin-bottom: 40px;
+    letter-spacing: 1px;
+    font-size: 32px;
   }
   
   #signup-form input,
   #login-form input {
     margin-bottom: 20px;
     padding: 12px 12px;
-    width: 320px;
+    width: 360px;
     border: 1px solid #d0d5d8;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 16px;
   }
   
   #submit-btn {
     margin: 10px auto;
     padding: 14px 140px;
     border-radius: 3px;
+    font-size: 20px;
   }
   
   /*interest*/
   .interest-wrapper {
-    padding-bottom: 180px;
+    padding-bottom: 240px;
   }
   
   .heading {
@@ -373,16 +389,24 @@ footer p {
   }
   
   .heading h2 {
-    font-size: 30px;
+    font-size: 32px;
   }
   
+  .interests {
+    padding: 0 180px;
+  }
+
   .interest-item {
-    margin: 0 20px;
-    height: 50px;
+    margin: 0 24px;
+    height: 64px;
   }
   
+  .interest-item p {
+    font-size: 20px;
+  }
+
   .text-contents {
-    font-size: 12px;
+    font-size: 16px;
   }
   
   /*faq*/
@@ -401,22 +425,23 @@ footer p {
   }
   
   .faq-list-item h3 {
-    font-size: 16px;
+    font-size: 20px;
   }
   
   .faq-list-item span {
+    top: 2px;
     right: 5px;
-    font-size: 20px;
+    font-size: 24px;
   }
   
   .answer {
     margin-bottom: 15px;
     padding: 5px 0px;
-    font-size: 12px;
   }
   
   .answer p {
     margin-top: 3px;
+    font-size: 16px;
   }
   
   /*フッター*/
