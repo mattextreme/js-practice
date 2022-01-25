@@ -211,6 +211,54 @@ header {
   display: block;
 }
 
+/*faq*/
+.faq-wrapper {
+  background-color: #fff;
+  padding-bottom: 90px;
+  text-align: center;
+  color: #5f5d60;
+}
+
+#faq-list {
+  margin: 0 auto;
+  padding: 0;
+  width: 600px;
+  list-style: none;
+}
+
+/*アコーディオン追加*/
+.faq-list-item {
+  position: relative;
+  margin: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  text-align: left;
+}
+
+.faq-list-item h3 {
+  font-size: 14px;
+  color: #5f5d60;
+}
+
+.faq-list-item span {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 20px;
+  color: #ccc;
+}
+
+.answer {
+  display: none;
+  margin-bottom: 15px;
+  padding: 5px 0px;
+  font-size: 12px;
+}
+
+.answer p {
+  margin-top: 0.2em;
+}
+
 /*フッター*/
 footer {
   padding-top: 30px;
